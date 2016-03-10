@@ -1,24 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="./vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="./vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="./vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="./resources/css/queries.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="./resources/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./resources/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./resources/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./resources/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./resources/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./resources/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./resources/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./resources/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="./resources/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./resources/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="./resources/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="./resources/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./resources/favicons/manifest.json">
+    <link rel="mask-icon" href="./resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="./resources/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="./resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     <title>Tamara Piksa</title>
   </head>
   <body>
     <header>
+      <nav>
+        <div class="row">
+          <img src="./resources/img/Drawing.png" alt="logo" class="logo">
+          <img src="./resources/img/DrawingBl.png" alt="logo" class="logo-black">
+
+          <ul class="main-nav js--main-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+        </div>
+      </nav>
       <div class="hero-text-box">
-        <h1>Full Stack Developer. Hello, style.</h1>
-        <a class="btn btn-full" href="#">Skills</a>
-        <a class="btn btn-ghost" href="#">Projects</a>
+        <h1>tamara piksa</h1>
+        <h3 id="main-head">full-stack developer</h3>
+        <a class="btn btn-full js--scroll-to-skills" href="#">Skills</a>
+        <a class="btn btn-ghost js--scroll-to-projects" href="#">Projects</a>
       </div> 
     </header>
 
+    <section class="section-features js--section-features" id="about">
+      <div class="row">
+        <h2>A modern developer &mdash; for modern websites</h2>
+        <p class="long-copy">
+          Hello! My name is Tamara Piksa and I'm a full-stack engineer living in San Francisco. 
+        </p>
+      </div>
+
+      <div class="row js--wp-1">
+        <div class="col span-1-of-4 box">
+          <i class="ion-settings icon-big"></i>
+          <h3>Modern Frameworks</h3>
+          <p>Well versed in the MEAN stack and Ruby on Rails. Quick learner. Always looking for the best solutions.</p>
+        </div>
+
+        <div class="col span-1-of-4 box">
+          <i class="ion-android-bulb icon-big"></i>
+          <h3>Responsive Design</h3>
+          <p>Skilled at implementing consistent designs across all devices.</p>
+        </div>
+
+        <div class="col span-1-of-4 box">
+          <i class="ion-android-globe icon-big"></i>
+          <h3>Location</h3>
+          <p>Based in San Francisco but willing to work remotely for the right opportunities.</p>
+        </div>
+
+        <div class="col span-1-of-4 box">
+          <i class="ion-person-stalker icon-big"></i>
+          <h3>Team Player</h3>
+          <p>Experience working with project managers and designers in agile environments.</p>
+        </div>
+      
+      </div>
+    </section>
+    
+    <section class="section-skills js--section-skills" id="skills">
+      <ul class="skills-showcase clearfix">
+        <li>
+          <figure class="skill-photo">
+            <img src="./resources/img/html5.png">
+          </figure>
+        </li>
+        <li>
+          <figure class="skill-photo">
+            <img src="./resources/img/jquery.png">
+          </figure>
+        </li>
+        <li>
+          <figure class="skill-photo">
+            <img src="./resources/img/ang.png">
+          </figure>
+        </li>
+        <li>
+          <figure class="skill-photo">
+            <img src="./resources/img/css.png">
+          </figure>
+        </li>
+      </ul>
+      <ul class="skills-showcase clearfix">
+        <li>
+          <figure class="skill-photo">
+            <img src="./resources/img/mongodb.png">
+          </figure>
+        </li>
+        <li>
+          <figure class="skill-photo">
+            <img src="./resources/img/java.png">
+          </figure>
+        </li>
+        <li>
+          <figure class="skill-photo">
+            <img src="./resources/img/node.png">
+          </figure>
+        </li>
+        <li>
+          <figure class="skill-photo">
+            <img src="./resources/img/rails.png">
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section-steps js--section-steps" id="projects">
+      <div class="row">
+        <h2>Recent Projects &mdash; Check out what I've built!</h2>
+      </div>
+      <div class="row">
+        <div class="parent col span-1-of-2">
+          <img src="./resources/img/prompt.png" class="app-screen">
+          <div class="child">
+            <a href="https://pbs.twimg.com/profile_images/578073915693494273/Kvm9b-aX.jpeg"><p>Writing prompt application built with Mongo, Express, Angular and Node</p></a>
+          </div>
+        </div>
+        <div class="parent col span-1-of-2">
+          <img src="./resources/img/frenzy.png" class="app-screen">
+          <div class="child">
+            <a href="https://pbs.twimg.com/profile_images/578073915693494273/Kvm9b-aX.jpeg"><p>Ruby on Rails application with Stripe payment implemenation</p></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-form js--section-contact" id="contact">
+      <div class="row">
+        <h2>Looking forward to hearing from you</h2>
+      </div>
+      <div class="rowcontact">
+          <div class="row">
+             <a href="./resources/img/Resume.pdf"><i class="ion-document icon-big"> resume</i></a>
+              <a href="https://github.com/tamarapiksa"><i class="ion-social-github-outline icon-big"> github</i></a>
+                <a href="mailto:tamara.piksa@gmail.com"><i class="ion-ios-email-outline icon-big"> email</i></a>
+              <a href="https://www.linkedin.com/in/tamarapiksa"><i class="ion-social-linkedin-outline icon-big"> linkedIn</i></a>
+           
+          </div>
+      </div>
+    </section>
+
+    <footer>
+     &copy; 2016 | Tamara Piksa
+    </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="./vendors/js/jquery.waypoints.min.js"></script>
+  <script src="./resources/js/script.js"></script>
 
   </body>
-
 
 
 
