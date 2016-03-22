@@ -445,9 +445,10 @@ footer {
     display:none;
     font-size: 30px;
     color: white;
-    height: 300px;
-    width: 534px;
+    height: auto;
+    width: 400px;
     margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 .child a {

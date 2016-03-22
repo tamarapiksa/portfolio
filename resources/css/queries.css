@@ -30,7 +30,7 @@
     .works-steps { margin-bottom: 40px; }
     .works-step:last-of-type { margin-bottom: 60px; }
     
-    .app-screen { width: 50%; }
+    .app-screen { width: 90%; }
     
     .icon-small { 
         width: 17px;
@@ -98,7 +98,7 @@
         margin-left: 0%;
     }
     
-    .app-screen { width: 40%; }
+    .app-screen { height: 50%; width: auto; }
     .steps-box:first-child { text-align: center; }
     
     .works-step div {
