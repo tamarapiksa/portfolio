@@ -6,6 +6,12 @@
     }
     
     .row { padding: 0 2%; }
+
+    img.logo {
+        height: 70px;
+        width: auto;
+    }
+
 }
 
 
