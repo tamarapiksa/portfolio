@@ -3,7 +3,7 @@ $(document).ready(function(){
   $('.js--section-features').waypoint(function(direction) {
     if (direction == "down"){
         $('nav').addClass('sticky');
-        $('.main-nav.js--main-nav').append('<li class="sticky-skills"><a href="#skills">Skills</a></li>');    
+        $('.main-nav').append('<li class="sticky-skills"><a href="#skills">Skills</a></li>');    
         $('.main-nav').append('<li class="sticky-skills"><a href="#projects">Projects</a></li>');
     } else {
         $('nav').removeClass('sticky');

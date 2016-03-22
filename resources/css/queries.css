@@ -32,6 +32,11 @@
     }
     
     .contact-form { width: 80%; }
+
+    img.logo {
+        height: 50px;
+        width: auto;
+    }
 }
 
 
