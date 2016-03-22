@@ -12,6 +12,10 @@
         width: auto;
     }
 
+    .rowcontact a {
+        margin-left: 10%;
+    }
+
 }
 
 
